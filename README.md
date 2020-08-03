@@ -88,13 +88,13 @@ public use of the database, or works produced from the database; keep
 the resulting data-sets open; and offer your shared or adapted version
 of the data-set under the same ODbL license.
 
-TCGA data are availabe under Broad Institute GDAC TCGA Analysis Pipeline
-License. The Cancer Genome Atlas Consortium is pleased to provide the
-researchcommunity with preliminary data prior to publication. Users are
-requested to carefully consider that these data are preliminary and have
-yet to be validated. Researchers are warned that the preliminary data
-have a significant uncertainty, are likely to change, and should be used
-with caution.
+TCGA data are available under Broad Institute GDAC TCGA Analysis
+Pipeline License. The Cancer Genome Atlas Consortium is pleased to
+provide the research community with preliminary data prior to
+publication. Users are requested to carefully consider that these data
+are preliminary and have yet to be validated. Researchers are warned
+that the preliminary data have a significant uncertainty, are likely to
+change, and should be used with caution.
 
 ## Contributors
 
