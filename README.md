@@ -74,7 +74,7 @@ dplyr::select(metabric_clinical,
 install.packages("brcaClinical")
 
 # Install the development version from GitHub
-devtools::install_github("ramiromagno/brcaClinical")
+devtools::install_github("maialab/brcaClinical")
 ```
 
 ## License
