@@ -1,3 +1,53 @@
+This files lists the copyright holders and licenses (if known) of the
+various data sets in the brcaClinical package:
+
+R Code License
+--------------
+
+The R code of this package is licensed with an Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license: https://creativecommons.org/licenses/by-sa/4.0/.
+
+Breast Cancer Clinical Data
+---------------------------
+
 The data are available under [the ODC Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/) (summary available [here](https://opendatacommons.org/licenses/odbl/summary/index.html)): you are free to share and modify the data so long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the data-set under the same ODbL license.
 
-TCGA data are availabe under Broad Institute GDAC TCGA Analysis Pipeline License. The Cancer Genome Atlas Consortium is pleased to provide the researchcommunity with preliminary data prior to publication.  Users are requested to carefully consider that these data are preliminary and have yet to be validated. Researchers are warned that the preliminary data have a significant uncertainty, are likely to change, and should be used with caution.
+TCGA data are available under Broad Institute GDAC TCGA Analysis Pipeline License. The Cancer Genome Atlas Consortium is pleased to provide the research community with preliminary data prior to publication.  Users are requested to carefully consider that these data are preliminary and have yet to be validated. Researchers are warned that the preliminary data have a significant uncertainty, are likely to change, and should be used with caution.
+
+cBioPortal
+----------
+
+Because brcaClinical uses cBioPortal to fetch the data, please cite:
+
+- Cerami et al. The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data. Cancer Discovery. May 2012 2; 401. https://doi.org/10.1158/2159-8290.cd-12-0095
+- Gao et al. Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal. Sci. Signal. 6, pl1 (2013). https://doi.org/10.1126/scisignal.2004088
+
+Studies' citations
+------------------
+
+If you use data from specific studies please also cite them:
+
+1. brca_bccrc:                     https://pubmed.ncbi.nlm.nih.gov/22495314
+2. bfn_duke_nus_2015:              https://pubmed.ncbi.nlm.nih.gov/26437033
+3. brca_broad:                     https://pubmed.ncbi.nlm.nih.gov/22722202
+4. acbc_mskcc_2015:                https://pubmed.ncbi.nlm.nih.gov/26095796
+5. brca_igr_2015:                  https://pubmed.ncbi.nlm.nih.gov/28027327
+6. brca_bccrc_xenograft_2014:      https://pubmed.ncbi.nlm.nih.gov/25470049
+7. breast_msk_2018:                https://pubmed.ncbi.nlm.nih.gov/30205045
+8. brca_tcga_pan_can_atlas_2018:
+                                   https://pubmed.ncbi.nlm.nih.gov/29625048
+                                   https://pubmed.ncbi.nlm.nih.gov/29625050
+                                   https://pubmed.ncbi.nlm.nih.gov/29596782
+                                   https://pubmed.ncbi.nlm.nih.gov/29617662
+                                   https://pubmed.ncbi.nlm.nih.gov/29622463
+                                   https://pubmed.ncbi.nlm.nih.gov/30643250
+                                   https://pubmed.ncbi.nlm.nih.gov/29617662
+                                   https://pubmed.ncbi.nlm.nih.gov/29625055
+9. brca_tcga:                      NA
+10. brca_mbcproject_wagle_2017:    NA
+11. brca_sanger:                   https://pubmed.ncbi.nlm.nih.gov/22722201
+12. breast_alpelisib_2020:         NA
+13. brca_tcga_pub:                 https://pubmed.ncbi.nlm.nih.gov/23000897
+14. brca_metabric:                 https://pubmed.ncbi.nlm.nih.gov/27161491
+15. brca_mskcc_2019:               https://pubmed.ncbi.nlm.nih.gov/31552290
+16. brca_tcga_pub2015:             https://pubmed.ncbi.nlm.nih.gov/26451490
+17. brca_smc_2018:                 https://pubmed.ncbi.nlm.nih.gov/29713003
