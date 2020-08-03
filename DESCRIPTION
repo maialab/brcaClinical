@@ -2,10 +2,16 @@ Package: brcaClinical
 Type: Package
 Title: Breast Cancer cBioPortal Clinical Data
 Version: 0.1.0
-Author: Authors@R: person("Ramiro", "Magno", email = "ramiro.magno@gmail.com",
-                  role = c("aut", "cre"))
-Description: Breast cancer cBioPortal clinical data
-License: What license is it under?
+Authors@R: c(
+    person(given = "Ramiro", family = "Magno", email = "ramiro.magno@gmail.com",
+    role = c("aut", "cre"), comment = c(ORCID = "0000-0001-5226-3441")),
+    person(given = "Ana-Teresa", family = "Maia",
+    email = "maia.anateresa@gmail.com", role = "aut", 
+    comment = c(ORCID = "0000-0002-0454-9207")),
+    person("Centre for Biomedical Research, University of Algarve", role = c("cph", "fnd"))
+    )
+Description: Breast cancer cBioPortal clinical data.
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: 
