@@ -1,0 +1,65 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+library(magrittr)
+library(dplyr)
+```
+
+# brcaClinical
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package contains clinical data from `r nrow(brcaClinical::brca_clinical)` breast cancer studies obtained from [cBioPortal](https://cbioportal.org):
+
+```{r}
+library(brcaClinical)
+brca_clinical[, c('studyId', 'name')]
+```
+
+## Usage
+
+The clinical data for each study can be found at the last column of `brca_clinical`: `clinicalData`.
+
+As an example, to have a glimpse at a few selected variables of the clinical data from the METABRIC project:
+
+```{r}
+library(brcaClinical)
+
+metabric_clinical <- brca_clinical$clinicalData$brca_metabric
+dplyr::select(metabric_clinical,
+              patientId,
+              AGE_AT_DIAGNOSIS,
+              HISTOLOGICAL_SUBTYPE)
+```
+
+## Installation
+
+```R
+# Install the released version from CRAN
+install.packages("brcaClinical")
+
+# Install the development version from GitHub
+devtools::install_github("ramiromagno/brcaClinical")
+```
+
+## License
+
+The data are available under [the ODC Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/) (summary available [here](https://opendatacommons.org/licenses/odbl/summary/index.html)): you are free to share and modify the data so long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the data-set under the same ODbL license.
+
+TCGA data are availabe under Broad Institute GDAC TCGA Analysis Pipeline License. The Cancer Genome Atlas Consortium is pleased to provide the researchcommunity with preliminary data prior to publication.  Users are requested to carefully consider that these data are preliminary and have yet to be validated. Researchers are warned that the preliminary data have a significant uncertainty, are likely to change, and should be used with caution.
+
+## Contributors
+
+Please note that the brcaClinical project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+
