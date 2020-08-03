@@ -1,11 +1,12 @@
 Package: brcaClinical
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Breast Cancer cBioPortal Clinical Data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Authors@R: person("Ramiro", "Magno", email = "ramiro.magno@gmail.com",
+                  role = c("aut", "cre"))
+Description: Breast cancer cBioPortal clinical data
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 2.10)
