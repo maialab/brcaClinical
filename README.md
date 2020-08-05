@@ -91,3 +91,8 @@ Please note that the brcaClinical project is released with a
 [Contributor Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
+
+## License
+
+CC BY-SA 4.0, plus see [LICENSE](LICENSE) for the licenses of the
+individual data sets.
