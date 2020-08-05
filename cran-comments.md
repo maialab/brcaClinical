@@ -1,13 +1,11 @@
 ## Licensing
 
-Previously was getting a NOTE because of the license in the DESCRIPTION file. I
-believe I have it now correctly indicated.
-As this is an R data package, the licensing of the data is [the ODC Open
-Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/) as
-mandated by the cBioPortal, the original source of the data provided in this
-package.
+I am using the same licensing pattern as I have seen discussed here for R data packages: https://thinkr-open.github.io/licensing-r/rlicense.html; namely, the example provided in the CRAN accepted package igraphdata: https://github.com/igraph/igraphdata.
 
-The R code itself is shared under a CC BY-SA 4.0.
+In the igraphdata package, Gábor Csárdi (author) has the License field as mine, and the LICENSE file containing the licenses for the individual data sets. So I thought it would be the right approach.
+
+In reality the only other license besides CC BY-SA 4.0, is the ODC Open Database License (ODbL), which is an open source license too. All the remaining text in the LICENSE are details about citations.
+
 
 ## Test environments
 * local R installation, R 4.0.2, under Arch Linux
