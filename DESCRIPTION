@@ -19,3 +19,5 @@ Depends:
 RoxygenNote: 7.1.1
 Imports: 
     tibble
+URL: https://github.com/maialab/brcaClinical
+BugReports: https://github.com/maialab/brcaClinical/issues
