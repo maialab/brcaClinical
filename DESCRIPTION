@@ -11,7 +11,7 @@ Authors@R: c(
     person("Centre for Biomedical Research, University of Algarve", role = c("cph", "fnd"))
     )
 Description: Breast cancer 'cBioPortal' clinical data. This data is obtained
-    from cBioPortal (https://www.cbioportal.org/) using the BioConductor
+    from cBioPortal <https://www.cbioportal.org/> using the BioConductor
     R package cBioPortalData. The approach to downloading clinical data
     of breast cancer patients consists in retrieving all studies whose
     descriptive name contains the keyword 'breast' (case-insensitive).
