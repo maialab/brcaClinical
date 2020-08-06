@@ -13,6 +13,6 @@ In reality the only other license besides CC BY-SA 4.0, is the ODC Open Database
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 0 note
 
 * This is a new release.
