@@ -73,8 +73,14 @@ clinical data from the METABRIC project:
 
 ## Installation
 
-    # Install the development version from GitHub
-    devtools::install_github("maialab/brcaClinical")
+If you do not have the package `remotes` install it first:
+
+    install.packages("remotes")
+
+Then install `brcaClinical`:
+
+    # Install the package from GitHub
+    remotes::install_github('maialab/brcaClinical')
 
 ## Code of Conduct
 

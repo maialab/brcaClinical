@@ -48,12 +48,22 @@ dplyr::select(metabric_clinical,
               HISTOLOGICAL_SUBTYPE)
 ```
 
+
 ## Installation
 
+If you do not have the package `remotes` install it first:
+
 ```R
-# Install the development version from GitHub
-devtools::install_github("maialab/brcaClinical")
+install.packages("remotes")
 ```
+
+Then install `brcaClinical`:
+
+```R
+# Install the package from GitHub
+remotes::install_github('maialab/brcaClinical')
+```
+
 
 ## Code of Conduct
   
