@@ -51,9 +51,6 @@ dplyr::select(metabric_clinical,
 ## Installation
 
 ```R
-# Install the released version from CRAN
-install.packages("brcaClinical")
-
 # Install the development version from GitHub
 devtools::install_github("maialab/brcaClinical")
 ```
